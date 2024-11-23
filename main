@@ -1,0 +1,12 @@
+
+from tkinter import*
+win = Tk()
+win.geometry('100x100')
+l1 = Label(text = 'write cod', bg = 'green', fg = 'pink')
+l1.pack()
+def text():
+    l2 = Label(text = 'write cod', bg = 'green', fg = 'pink')
+    l2.pack()
+b1 = Button(win, width = 50, text = 'проверить',bg = 'black', fg = 'pink', command = text)
+b1.pack()
+win.mainloop()
